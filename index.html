@@ -1,1 +1,47 @@
-This is Marissa Cogan's Github Page!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marissa Cogan's Github Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+        .sparkle {
+            font-size: 2em;
+            color: pink;
+            position: relative;
+            text-align: center;
+        }
+        .sparkle::before, .sparkle::after {
+            content: '✨';
+            position: absolute;
+            font-size: 0.5em;
+            animation: sparkle 1.5s infinite;
+        }
+        .sparkle::before {
+            top: -20px;
+            left: -20px;
+        }
+        .sparkle::after {
+            bottom: -20px;
+            right: -20px;
+        }
+        @keyframes sparkle {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="sparkle">This is Marissa Cogan's new Github page!</div>
+</body>
+</html>
