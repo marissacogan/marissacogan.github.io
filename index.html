@@ -7,44 +7,34 @@
     <style>
         body {
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
+            justify-content: center;
             height: 100vh;
             background-color: #f0f0f0;
             font-family: Arial, sans-serif;
         }
-        .sparkle {
+        .text {
             color: pink;
             font-size: 24px;
-            text-shadow: 
-                0 0 5px white,
-                0 0 10px white,
-                0 0 15px pink,
-                0 0 20px pink,
-                0 0 25px white;
-            animation: sparkle 1.5s infinite;
+            margin-bottom: 20px;
         }
-        @keyframes sparkle {
-            0%, 100% {
-                text-shadow: 
-                    0 0 5px white,
-                    0 0 10px white,
-                    0 0 15px pink,
-                    0 0 20px pink,
-                    0 0 25px white;
-            }
-            50% {
-                text-shadow: 
-                    0 0 10px white,
-                    0 0 20px white,
-                    0 0 30px pink,
-                    0 0 40px pink,
-                    0 0 50px white;
-            }
+        .cats {
+            display: flex;
+            gap: 15px;
+        }
+        img {
+            width: 100px;
+            height: auto;
         }
     </style>
 </head>
 <body>
-    <div class="sparkle">This is Marissa Cogan's Github page!</div>
+    <div class="text">This is Marissa Cogan's Github page!</div>
+    <div class="cats">
+        <img src="https://placekitten.com/100/100" alt="Cute Cat 1">
+        <img src="https://placekitten.com/101/100" alt="Cute Cat 2">
+        <img src="https://placekitten.com/102/100" alt="Cute Cat 3">
+    </div>
 </body>
 </html>
