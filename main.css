@@ -1,61 +1,76 @@
 body {
-  font-family: Arial, Helvetica, sans-serif
-  max-width: 70rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-header {
-  background-color: rgb(179, 4, 4);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 24px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-bottom: 15px;
-}
-
-body {
-
-}
-
-head {
-font-size: 40px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-fon
+  margin: 10px;
 }
 
 nav {
-  float:left;
-  width: 30%;
-  background: #bf0d0d;
+  border-top: 8px solid black;
+  border-bottom: 1px solid black;
   padding: 20px;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px;
-}
-
-footer {
-  background-color: #777777;
-  padding: 10px;
   text-align: center;
-  color: white;
 }
 
+.logo {
+  width: 330px;
+}
+
+.sitemotto {
+  color: #de2f23;
+  font-family: Basier, Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+
+
+header {
+    font-family: Basier, Arial, sans-serif;
+    font-size: 20px;
 }
 
 h1 {
-  font-style:
-  font-size: 40px;
+  font-size: 46px;
 }
 
-h2 {
-  font-size: 24px;
-  margin-bottom: 1.5rem;
+.byline {
+  font-weight: bold;
+}
+
+.tdpad {
+  padding: 15px;
+}
+
+article > p {
+  font-family: Pensum, "Times New Roman", serif;
+  font-size: 20px;
+}
+
+.story_image {
+  width: 100%;
+}
+
+.caption {
+  color: gray;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+footer {
+  margin-top: 30px;
+  font-family: Basier, Arial, sans-serif;
+}
+
+footer > p {
+  font-size: 14px;
+  color: #666;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #717171;
+  text-decoration-color: #ffcb04;
 }
