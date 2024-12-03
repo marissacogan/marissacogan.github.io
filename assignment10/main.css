@@ -1,0 +1,76 @@
+body {
+  margin: 10px;
+}
+
+nav {
+  border-top: 8px solid black;
+  border-bottom: 1px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 330px;
+}
+
+.sitemotto {
+  color: #de2f23;
+  font-family: Basier, Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+
+
+header {
+    font-family: Basier, Arial, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+  font-size: 46px;
+}
+
+.byline {
+  font-weight: bold;
+}
+
+.tdpad {
+  padding: 15px;
+}
+
+article > p {
+  font-family: Pensum, "Times New Roman", serif;
+  font-size: 20px;
+}
+
+.story_image {
+  width: 100%;
+}
+
+.caption {
+  color: gray;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+footer {
+  margin-top: 30px;
+  font-family: Basier, Arial, sans-serif;
+}
+
+footer > p {
+  font-size: 14px;
+  color: #666;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #717171;
+  text-decoration-color: #ffcb04;
+}
